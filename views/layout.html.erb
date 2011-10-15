@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Cape Marquees</title>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+<meta name="author" content="Ollie Marshall" />
+<meta name="description" content="Cape Marquees" />
+<meta name="keywords" content="keywords, here" />
+<meta name="robots" content="index, follow, noarchive" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+<script src="/javascripts/fancybox-pack.js" type="text/javascript"></script>
+<link href="/stylesheets/fancybox.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
+<!--[if IE 6]><link href="/stylesheets/ie6.css" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("a.zoom1").fancybox();
+	});
+</script>
+</head>
+
+<body>
+  <div id="wrap">
+    <div id="header">			
+    	<a name="top"></a>
+    	<h1 id="logo-text"><a href="/" title="">cape marquees</a></h1>
+    	<p id="slogan">Marquee hire in the south east</p>
+    	<div id="nav">
+    		<ul>
+    		  <li class="item active"><a href="/" id="show_section">Home</a></li>
+    		  <li class="item"><a href="/capri-marquees" id="show_section">Capri Marquees</a></li>
+    		  <li class="item"><a href="/prices" id="show_section">Prices</a></li>
+    		  <li class="item"><a href="/gallery" id="show_section">Gallery</a></li>
+    		  <li class="item"><a href="/contact-us" id="show_section">Contact Us</a></li>
+    		  <li class="item"><a href="/testimonials" id="show_section">Testimonials</a></li></ul>
+    	</div>		
+
+    	<!-- <p id="rss-feed"><a href="/" class="feed">Grab the RSS FEEd</a></p> -->
+      <!--
+    	<form id="quick-search" method="get" >
+    		<p>
+    		<label for="qsearch">Search:</label>
+    		<input class="tbox" id="qsearch" type="text" name="qsearch" value="Search..." title="Start typing and hit ENTER" />
+    		<input class="btn" alt="Search" type="image" name="searchsubmit" title="Search" src="images/search.png" />
+    		</p>
+    	</form>	
+      -->					
+    </div>
+    
+  	<div id="content-wrap" class="clear">
+  		<div id="content">
+  			<div id="main">
+  			  <%= yield %>
+        </div>
+  		</div>
+  	</div>
+  </div>
+
+  <div id="footer">	
+  	<div id="footer-outer" class="clear">
+  	  <div id="footer-wrap">
+  		  <div class="col-a">
+    			<h3>Contact Info</h3>
+    			<p>
+    			  <strong>Mobile: 07763 865919</strong>
+    			</p>
+    		  <!-- 
+    		  <p>
+    		    <strong>Address: </strong>Bucks
+    		  </p>
+    		   -->
+           <p>
+             <strong>E-mail: </strong>george@capemarquees.co.uk
+            </p>
+    		  	<p>
+    		  	  For more information please <a href="/contact-us">contact us</a>
+    		  	</p>							
+    		</div>
+
+    		<div class="col-a">
+    			<h3>Site Links</h3>
+    			<div class="footer-list">
+    				<ul>
+    				  <li class="item active"><a href="/" id="show_section">Home</a></li>
+    				  <li class="item"><a href="/capri-marquees" id="show_section">Capri Marquees</a></li>
+    				  <li class="item"><a href="/prices" id="show_section">Prices</a></li>
+    				  <li class="item"><a href="/gallery" id="show_section">Gallery</a></li>
+    				  <li class="item"><a href="/contact-us" id="show_section">Contact Us</a></li>
+    				  <li class="item"><a href="/testimonials" id="show_section">Testimonials</a></li>
+    				</ul>
+    			</div>					
+
+    		</div>
+
+    		<div class="col-a">
+    			<h3>Follow Us</h3>
+    			<div class="footer-list">
+    				<ul>				
+    					<!-- <li><a href="" class="rssfeed">RSS Feed</a></li> -->
+    					<li><a href="mailto:george@capemarquees.co.uk" class="email">Email</a></li>
+    					<!-- <li><a href="http://twitter.com/capemarquees" class="twitter">Twitter</a></li> -->									
+    				</ul>
+    			</div>
+    		</div>		
+
+    		<div class="col-b">
+    		  <h3>User Links</h3>
+    	    <div class="footer-list">
+    			  <ul>
+    			    <li><a href="javascript:void((function(){var%20cjs=document.createElement('script');cjs.setAttribute('src','/_copy.js?'+new%20Date().getTime());cjs.setAttribute('type','text/javascript');document.getElementsByTagName('head')[0].appendChild(cjs);})());">Edit</a>
+    			    </li>
+    			  </ul>
+    		  </div> 
+    			<h3>About</h3>
+    			<p>
+    			  Cape Marquees is a family run marquee hire business offering marquee hire services to Buckinghamshire, Berkshire and feasible surrounding areas.
+    			</p> 
+    	  </div>		
+
+    		<div class="fix"></div>
+  		
+    		<div id="footer-bottom">
+    			<div class="bottom-left">
+    				<p>
+    				  &copy; 2011 <strong>Cape Marquees</strong>
+    				</p>
+    				<p>
+    				  <strong>
+    				    <a href="#top" class="back-to-top">Back to Top</a>
+    				  </strong>
+    				</p>
+    		  </div>		
+    			<div class="bottom-right">
+    	      <div> 
+              Powered by <a href="http://www.firenzy.co.uk/commix">Commix Apps</a> and<br/>
+              Cloud Computing from <a href="http://www.firenzy.co.uk/">Firenzy</a>
+            </div> 
+            <a href="http://www.firenzy.co.uk/"> 
+              <img src="http://dl.dropbox.com/u/113111/commix.png">
+            </a>
+    		  </div>	
+    		</div>
+    	</div>
+  	</div>
+  </div>
+</body> 
+</html>
