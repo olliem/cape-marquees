@@ -4,20 +4,24 @@
 	    <div id="featured-block" class="clear">
 			  <div id="featured-ribbon"></div>	
 			  <div class="image-block">
-          <img src="../sites/site-2/themes/cape/images/cape8.jpg" alt="featured" width="350px" height="250px"/>
+          <img src="/images/cape8.jpg" alt="featured" width="350px" height="250px"/>
         </div>	
 			  <div class="text-block">
-			    <h2>Capri Marquees</h2>
-				  <p>
-				    The <strong>Capri Style Marquee</strong> is ideal for many occasions from a small garden party to weddings, birthdays, anniversaries, wedding blessings and corporate functions. Accommodating up to 50 guests. The Capri Marquee's modern, spacious design is dramatically different from the more typical marquees you may be familiar with. Its unique innovative marquee design is an elegant way to transform any setting into a stylish environment creating a magnificent atmosphere. Its sweeping appearance using minimal stakes, poles and ropes is truly remarkable.
-				  </p>
+			    <% copy :description do %>
+			      <h2>Capri Marquees</h2>
+				    <p>
+				      The <strong>Capri Style Marquee</strong> is ideal for many occasions from a small garden party to weddings, birthdays, anniversaries, wedding blessings and corporate functions. Accommodating up to 50 guests. The Capri Marquee's modern, spacious design is dramatically different from the more typical marquees you may be familiar with. Its unique innovative marquee design is an elegant way to transform any setting into a stylish environment creating a magnificent atmosphere. Its sweeping appearance using minimal stakes, poles and ropes is truly remarkable.
+				    </p>
+				  <% end %>
         </div>
       </div>		
     </div>	
     <ul>
-      <li> We provide the Capri marquee in its most popular size of  28ft x 28ft, accommodating up to 40 seated or 50 standing  <br></li>   
-      <li>Each Capri comes complete with half clear and half solid side walls included in the price. These fit into the arches of the marquee. There is a cord that runs along the inside line of the arches which the side walls clip onto. They are also pegged to the ground as required. The wall sections can be simply clipped on or off in minutes. They provide protection from wind or rain or can be removed for a sunny day. <br></li>
-      <li> We supply many furnishings that complement this uniquely designed marquee. A typical arrangement would comprise up-lighting, ivy garland and/or pea lighting for the internal arches, floor matting, tables and chairs. Please contact us or see the prices page for a full list of items.<br></li>
-    </ul> 
+      <% copy :features do %>
+        <li> We provide the Capri marquee in its most popular size of  28ft x 28ft, accommodating up to 40 seated or 50 standing  <br></li>   
+        <li>Each Capri comes complete with half clear and half solid side walls included in the price. These fit into the arches of the marquee. There is a cord that runs along the inside line of the arches which the side walls clip onto. They are also pegged to the ground as required. The wall sections can be simply clipped on or off in minutes. They provide protection from wind or rain or can be removed for a sunny day. <br></li>
+        <li> We supply many furnishings that complement this uniquely designed marquee. A typical arrangement would comprise up-lighting, ivy garland and/or pea lighting for the internal arches, floor matting, tables and chairs. Please contact us or see the prices page for a full list of items.<br></li>
+      <% end %>
+    </ul>
   </div>
 </div>
