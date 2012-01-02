@@ -23,8 +23,14 @@
   <div id="wrap">
     <div id="header">			
     	<a name="top"></a>
-    	<h1 id="logo-text"><a href="/" title="">cape marquees</a></h1>
-    	<p id="slogan">Marquee hire in the south east</p>
+    	<h1 id="logo-text">
+    	  <% copy :title do %>
+    	    <a href="/" title="">cape marquees</a>
+    	  <% end %>
+    	</h1>
+    	<% copy :subtitle do %>
+    	  <p id="slogan">Marquee hire in the south east</p>
+    	<% end %>
     	<div id="nav">
     		<ul>
     		  <li class="item active"><a href="/" id="show_section">Home</a></li>
